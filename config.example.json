@@ -1,0 +1,22 @@
+{
+  "base_url": "https://api.siliconflow.cn/v1",
+  "api_key": "sk-YOUR_API_KEY_HERE",
+  "judge_model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "gen_models": {
+    "DeepSeek": "deepseek-ai/DeepSeek-V3",
+    "Qwen": "Qwen/Qwen3-32B",
+    "Kimi": "Pro/zai-org/GLM-5.1"
+  },
+  "gen_endpoints": {},
+  "temperature_gen": 0.6,
+  "top_p_gen": 1.0,
+  "search": {
+    "_说明": "E 元素循证依据检索配置。全部可留空（免密钥运行）；填 key 可提速/提额。检索源 T1=PubMed/CrossRef/OpenAlex，T2=Semantic Scholar，T3=政策网页（Bing，须人工复核）",
+    "mailto": "",
+    "pubmed_api_key": "",
+    "semantic_scholar_api_key": "",
+    "per_source_limit": 5,
+    "timeout": 20,
+    "max_evidence_chars": 20000
+  }
+}
